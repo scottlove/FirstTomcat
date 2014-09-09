@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+           version="2.5">
+
+    <context-param>
+        <param-name>environment</param-name>
+        <param-value>_local</param-value>
+    </context-param>
+    <context-param>
+        <param-name>DBUrl_local</param-name>
+        <param-value>jdbc:mysql://localhost:3306/MessageStore</param-value>
+    </context-param>
+    <context-param>
+        <param-name>DBDriver_local</param-name>
+        <param-value>com.mysql.jdbc.Driver</param-value>
+    </context-param>
+    <context-param>
+        <param-name>db_username_local</param-name>
+        <param-value>test</param-value>
+    </context-param>
+    <context-param>
+        <param-name>db_password_local</param-name>
+        <param-value>test</param-value>
+    </context-param>
+
+
+</web-app>
