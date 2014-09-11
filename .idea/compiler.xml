@@ -25,10 +25,6 @@
         <module name="FirstTomcat" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.8">
-      <module name="FirstTomcat" target="1.8" />
-      <module name="MYSQLDB" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
 

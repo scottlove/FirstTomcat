@@ -7,12 +7,12 @@
 
     <context-param>
         <param-name>environment</param-name>
-        <param-value>_local</param-value>
+        <param-value>_azure</param-value>
     </context-param>
     <context-param>
-        <param-name>DBUrl_local</param-name>
-        <param-value>jdbc:mysql://localhost:3306/MessageStore</param-value>
-    </context-param>
+    <param-name>DBUrl_local</param-name>
+    <param-value>jdbc:mysql://localhost:3306/MessageStore</param-value>
+</context-param>
     <context-param>
         <param-name>DBDriver_local</param-name>
         <param-value>com.mysql.jdbc.Driver</param-value>
@@ -23,6 +23,23 @@
     </context-param>
     <context-param>
         <param-name>db_password_local</param-name>
+        <param-value>test</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>DBUrl_azure</param-name>
+        <param-value>jdbc:mysql://kafkaserver.cloudapp.net:3306/MessageStore</param-value>
+    </context-param>
+    <context-param>
+        <param-name>DBDriver_azure</param-name>
+        <param-value>com.mysql.jdbc.Driver</param-value>
+    </context-param>
+    <context-param>
+        <param-name>db_username_azure</param-name>
+        <param-value>test</param-value>
+    </context-param>
+    <context-param>
+        <param-name>db_password_azure</param-name>
         <param-value>test</param-value>
     </context-param>
 

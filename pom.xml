@@ -30,19 +30,7 @@
 
     <build>
 
-        <sourceDirectory>source/production/java</sourceDirectory>
-        <resources>
-            <resource>
-                <directory>source/production/resources</directory>
-            </resource>
-        </resources>
 
-        <testSourceDirectory>source/test/java/unit</testSourceDirectory>
-        <testResources>
-            <testResource>
-                <directory>source/test/java/resources</directory>
-            </testResource>
-        </testResources>
 
         <plugins>
             <plugin>

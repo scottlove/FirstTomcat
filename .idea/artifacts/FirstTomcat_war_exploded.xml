@@ -7,10 +7,6 @@
         <element id="directory" name="classes">
           <element id="module-output" name="FirstTomcat" />
         </element>
-        <element id="directory" name="lib">
-          <element id="library" level="application" name="gson-2.3" />
-          <element id="library" level="application" name="log4j-api-2.0-beta9" />
-        </element>
       </element>
     </root>
   </artifact>
