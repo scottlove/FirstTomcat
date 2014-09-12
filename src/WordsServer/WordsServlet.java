@@ -2,11 +2,13 @@ package WordsServer;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
+import javax.servlet.ServletInputStream;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.sql.*;
 import java.util.ArrayList;
@@ -40,9 +42,36 @@ public class WordsServlet extends HttpServlet {
 
     }
 
+    private class person {
+        public String emailAddress;
+        public String firstName;
+        public int age;
+
+
+    }
+
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        this.doGet(request, response);
+
+        response.setHeader("Access-Control-Allow-Origin", "*");
+        ServletInputStream reader = request.getInputStream();
+        int contentLen = request.getContentLength();
+        if (contentLen >=1)
+        {
+            byte buffer[] = new byte[ contentLen ];
+            int len = reader.readLine( buffer, 0, buffer.length );
+            String data = new String(buffer,0,len) ;
+            Gson gson = new Gson();
+            person b = gson.fromJson(data,person.class);
+            String result = b.firstName + ',' + b.age + ',' + b.emailAddress;
+            response.getWriter().write(result);
+        }
+        else
+        {
+
+            response.getWriter().write("failure");
+        }
+
     }
 
 
