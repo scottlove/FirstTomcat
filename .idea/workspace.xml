@@ -91,7 +91,7 @@
       <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="27" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
+            <state line="9" column="27" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="901">
               <folding />
             </state>
           </provider>
@@ -127,10 +127,19 @@
       <file leaf-file-name="WordsServlet.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/WordsServer/WordsServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="0" selection-start="2152" selection-end="2152" vertical-scroll-proportion="0.77797204" vertical-offset="728" max-vertical-offset="2091">
+            <state line="94" column="0" selection-start="2536" selection-end="2536" vertical-scroll-proportion="1.2786378" vertical-offset="551" max-vertical-offset="1989">
               <folding>
-                <marker date="1410302163398" expanded="true" signature="1614:1643" placeholder="SELECT word,..words..." />
+                <marker date="1410554608210" expanded="true" signature="1614:1643" placeholder="SELECT word,..words..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBFactory.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/WordsServer/DBFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="94" column="43" selection-start="2601" selection-end="2601" vertical-scroll-proportion="0.0" vertical-offset="1054" max-vertical-offset="2448">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -151,10 +160,10 @@
         <option value="$PROJECT_DIR$/MYSQLDB/pom.xml" />
         <option value="$PROJECT_DIR$/log4j2.xml" />
         <option value="$PROJECT_DIR$/src/WordsServer/DBFactory.java" />
-        <option value="$PROJECT_DIR$/src/WordsServer/WordsServlet.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/WordsServer/WordsServlet.java" />
       </list>
     </option>
   </component>
@@ -225,8 +234,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-346" />
+    <option name="y" value="92" />
     <option name="width" value="1936" />
     <option name="height" value="1176" />
   </component>
@@ -256,7 +265,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -331,7 +340,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -344,13 +353,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="last_opened_file_path" value="C:/Dev/Lib/gson-2.3.jar!/" />
+    <property name="last_opened_file_path" value="C:/Dev/Lib/mysql-connector-java-5.0.8-bin.jar" />
     <property name="options.lastSelected" value="reference.projectsettings.compiler.javacompiler" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="SearchEverywhereHistory" value="" />
@@ -548,6 +557,18 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="transportHostId" />
+        </data>
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
+      <method />
+    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -565,18 +586,6 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="LOCAL" value="false" />
-      <deployment />
-      <server-settings>
-        <data>
-          <option name="transportHostId" />
-        </data>
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
       <method />
     </configuration>
     <configuration default="false" name="Tomcat 8.0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
@@ -683,12 +692,13 @@
       <workItem from="1410385405382" duration="3565000" />
       <workItem from="1410391922194" duration="119000" />
       <workItem from="1410392068460" duration="39000" />
-      <workItem from="1410452927939" duration="1934000" />
+      <workItem from="1410452927939" duration="4505000" />
+      <workItem from="1410552616040" duration="1973000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35780000" />
+    <option name="totallyTimeSpent" value="40324000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -711,8 +721,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="true" />
+    <frame x="-346" y="92" width="1936" height="1176" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -722,20 +732,20 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39980355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39980355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.327112" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.327112" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24960506" sideWeight="0.5008183" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907662" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973376" sideWeight="0.49918166" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973376" sideWeight="0.49918166" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20726916" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -769,7 +779,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="64" column="0" selection-start="1532" selection-end="1532" vertical-scroll-proportion="0.0" vertical-offset="1088" max-vertical-offset="2312">
           <folding>
-            <marker date="1410302163398" expanded="true" signature="1614:1643" placeholder="SELECT word,..words..." />
+            <marker date="1410554608210" expanded="true" signature="1614:1643" placeholder="SELECT word,..words..." />
           </folding>
         </state>
       </provider>
@@ -813,7 +823,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="64" column="0" selection-start="1532" selection-end="1532" vertical-scroll-proportion="0.0" vertical-offset="1088" max-vertical-offset="2312">
           <folding>
-            <marker date="1410302163398" expanded="true" signature="1614:1643" placeholder="SELECT word,..words..." />
+            <marker date="1410554608210" expanded="true" signature="1614:1643" placeholder="SELECT word,..words..." />
           </folding>
         </state>
       </provider>
@@ -857,7 +867,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="72" column="50" selection-start="1890" selection-end="1890" vertical-scroll-proportion="0.0" vertical-offset="813" max-vertical-offset="2312">
           <folding>
-            <marker date="1410302163398" expanded="true" signature="1614:1643" placeholder="SELECT word,..words..." />
+            <marker date="1410554608210" expanded="true" signature="1614:1643" placeholder="SELECT word,..words..." />
           </folding>
         </state>
       </provider>
@@ -901,7 +911,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="53" column="18" selection-start="1358" selection-end="1358" vertical-scroll-proportion="0.0" vertical-offset="677" max-vertical-offset="1972">
           <folding>
-            <marker date="1410302163398" expanded="true" signature="1614:1643" placeholder="SELECT word,..words..." />
+            <marker date="1410554608210" expanded="true" signature="1614:1643" placeholder="SELECT word,..words..." />
           </folding>
         </state>
       </provider>
@@ -945,7 +955,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="52" column="71" selection-start="1413" selection-end="1413" vertical-scroll-proportion="0.0" vertical-offset="507" max-vertical-offset="1683">
           <folding>
-            <marker date="1410302163398" expanded="true" signature="1614:1643" placeholder="SELECT word,..words..." />
+            <marker date="1410554608210" expanded="true" signature="1614:1643" placeholder="SELECT word,..words..." />
           </folding>
         </state>
       </provider>
@@ -982,7 +992,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="76" column="19" selection-start="3142" selection-end="3142" vertical-scroll-proportion="0.0" vertical-offset="1292" max-vertical-offset="1394">
           <folding>
-            <marker date="1410302163398" expanded="true" signature="1614:1643" placeholder="SELECT word,..words..." />
+            <marker date="1410554608210" expanded="true" signature="1614:1643" placeholder="SELECT word,..words..." />
           </folding>
         </state>
       </provider>
@@ -1012,7 +1022,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="54" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="442">
           <folding>
-            <marker date="1410302163398" expanded="true" signature="1614:1643" placeholder="SELECT word,..words..." />
+            <marker date="1410554608210" expanded="true" signature="1614:1643" placeholder="SELECT word,..words..." />
           </folding>
         </state>
       </provider>
@@ -1094,13 +1104,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/WordsServer/DBFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="56" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="2567">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="64" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1054">
@@ -1127,11 +1130,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/WordsServer/DBFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="43" selection-start="2601" selection-end="2601" vertical-scroll-proportion="0.0" vertical-offset="1054" max-vertical-offset="2448">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/WordsServer/WordsServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="0" selection-start="2152" selection-end="2152" vertical-scroll-proportion="0.77797204" vertical-offset="728" max-vertical-offset="2091">
+        <state line="94" column="0" selection-start="2536" selection-end="2536" vertical-scroll-proportion="1.2786378" vertical-offset="551" max-vertical-offset="1989">
           <folding>
-            <marker date="1410302163398" expanded="true" signature="1614:1643" placeholder="SELECT word,..words..." />
+            <marker date="1410554608210" expanded="true" signature="1614:1643" placeholder="SELECT word,..words..." />
           </folding>
         </state>
       </provider>
@@ -1167,7 +1177,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>gson-2.3</last-edited>
+          <last-edited>mysql-connector-java-5.0.8-bin</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

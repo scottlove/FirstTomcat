@@ -7,6 +7,11 @@
         <element id="directory" name="classes">
           <element id="module-output" name="FirstTomcat" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="application" name="log4j-api-2.0-beta9" />
+          <element id="library" level="application" name="gson-2.3" />
+          <element id="library" level="application" name="mysql-connector-java-5.0.8-bin" />
+        </element>
       </element>
     </root>
   </artifact>

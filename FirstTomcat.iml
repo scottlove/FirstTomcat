@@ -25,6 +25,7 @@
     <orderEntry type="library" name="log4j-api-2.0-beta9" level="application" />
     <orderEntry type="library" name="gson-2.3" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:javax.servlet-api:3.1.0" level="project" />
+    <orderEntry type="library" name="mysql-connector-java-5.0.8-bin" level="application" />
   </component>
 </module>
 

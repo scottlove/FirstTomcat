@@ -3,6 +3,13 @@
     <output-path>$PROJECT_DIR$/target</output-path>
     <root id="archive" name="First-Tomcat-1.0.0.SNAPSHOT.war">
       <element id="artifact" artifact-name="FirstTomcat:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="application" name="log4j-api-2.0-beta9" />
+          <element id="library" level="application" name="gson-2.3" />
+          <element id="library" level="application" name="mysql-connector-java-5.0.8-bin" />
+        </element>
+      </element>
     </root>
   </artifact>
 </component>

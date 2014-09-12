@@ -79,25 +79,19 @@ public class WordsServlet extends HttpServlet {
                 //writer.append(rs.getString("word") + ":" + rs.getString("word" )   )       ;
             }
 
-            try{
-                Gson gson = new Gson();
-                String json = gson.toJson(words)   ;
-                response.setHeader("Access-Control-Allow-Origin", "*");
-                response.setContentType("application/json");
-                response.getWriter().write(json) ;
-            }
-            catch (Exception ex)
-            {
-                System.err.println(ex.toString())  ;
-            }
-
-
-
+            Gson gson = new Gson();
+            String json = gson.toJson(words)   ;
+            response.setHeader("Access-Control-Allow-Origin", "*");
+            response.setContentType("application/json");
+            response.getWriter().write(json) ;
+            connection.close();
         }
-        catch (SQLException ex)
+        catch (Exception ex)
         {
-            System.err.println("sqlexception")  ;
+            System.err.println(ex.getMessage())  ;
+
         }
+
 
 
 
