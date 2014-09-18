@@ -106,7 +106,7 @@
       <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="27" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="901">
+            <state line="47" column="63" selection-start="1591" selection-end="1591" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
               <folding />
             </state>
           </provider>
@@ -139,10 +139,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WordsServlet.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="WordsServlet.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WordsServer/WordsServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="60" selection-start="1782" selection-end="1782" vertical-scroll-proportion="0.29411766" vertical-offset="660" max-vertical-offset="2448">
+            <state line="65" column="60" selection-start="1782" selection-end="1782" vertical-scroll-proportion="0.0" vertical-offset="1105" max-vertical-offset="2448">
               <folding>
                 <marker date="1410562997566" expanded="true" signature="2484:2513" placeholder="SELECT word,..words..." />
               </folding>
@@ -150,10 +150,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DBFactory.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="DBFactory.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/WordsServer/DBFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="43" selection-start="2601" selection-end="2601" vertical-scroll-proportion="0.0" vertical-offset="1598" max-vertical-offset="2703">
+            <state line="94" column="5" selection-start="2601" selection-end="2601" vertical-scroll-proportion="0.96579474" vertical-offset="383" max-vertical-offset="2448">
               <folding />
             </state>
           </provider>
@@ -249,8 +249,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-20" />
-    <option name="y" value="25" />
+    <option name="x" value="-15" />
+    <option name="y" value="1" />
     <option name="width" value="1936" />
     <option name="height" value="1176" />
   </component>
@@ -281,7 +281,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -346,6 +345,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FirstTomcat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FirstTomcat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -356,6 +373,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -368,13 +386,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="last_opened_file_path" value="C:/Dev/Lib/mysql-connector-java-5.0.8-bin.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MicroRideShare/RestServer" />
     <property name="options.lastSelected" value="reference.projectsettings.compiler.javacompiler" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="SearchEverywhereHistory" value="" />
@@ -710,11 +728,15 @@
       <workItem from="1410452927939" duration="4505000" />
       <workItem from="1410552616040" duration="1973000" />
       <workItem from="1410557844071" duration="5307000" />
+      <workItem from="1410564081532" duration="28000" />
+      <workItem from="1410811743081" duration="2643000" />
+      <workItem from="1410818439468" duration="619000" />
+      <workItem from="1410822906742" duration="600000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45631000" />
+    <option name="totallyTimeSpent" value="49521000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -737,7 +759,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-20" y="25" width="1936" height="1176" extended-state="0" />
+    <frame x="-15" y="1" width="1936" height="1176" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -754,7 +776,6 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.327112" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24960506" sideWeight="0.5008183" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907662" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -767,6 +788,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.327112" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1097,13 +1119,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/log4j2.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="6" selection-start="616" selection-end="616" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
@@ -1130,33 +1145,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="27" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WordsServer/DBFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="43" selection-start="2601" selection-end="2601" vertical-scroll-proportion="0.0" vertical-offset="1054" max-vertical-offset="2448">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Apache Software Foundation/apache-tomcat-8.0.11/lib/servlet-api.jar!/javax/servlet/ServletInputStream.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="11" selection-start="389" selection-end="389" vertical-scroll-proportion="0.3153989" vertical-offset="0" max-vertical-offset="539">
+        <state line="11" column="11" selection-start="389" selection-end="389" vertical-scroll-proportion="0.3153989" vertical-offset="0" max-vertical-offset="539" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="63" selection-start="1591" selection-end="1591" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/WordsServer/WordsServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="60" selection-start="1782" selection-end="1782" vertical-scroll-proportion="0.29411766" vertical-offset="660" max-vertical-offset="2448">
+        <state line="65" column="60" selection-start="1782" selection-end="1782" vertical-scroll-proportion="0.0" vertical-offset="1105" max-vertical-offset="2448">
           <folding>
             <marker date="1410562997566" expanded="true" signature="2484:2513" placeholder="SELECT word,..words..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WordsServer/DBFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="5" selection-start="2601" selection-end="2601" vertical-scroll-proportion="0.96579474" vertical-offset="383" max-vertical-offset="2448">
+          <folding />
         </state>
       </provider>
     </entry>
